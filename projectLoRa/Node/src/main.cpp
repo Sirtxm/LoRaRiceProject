@@ -194,7 +194,7 @@ void setup() {
     Serial.println("Failed to find INA219 chip");
     while (1);
   }
-  Initialize the INA219.
+  // Initialize the INA219.
   ina219.begin();
   if (! ina219.begin())
   {
